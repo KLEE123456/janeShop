@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../images/headerbg.png);
+    box-sizing: border-box;
+}
+.header img:nth-of-type(1){
+    margin-left: 100px;
+    vertical-align: middle;
+}
+.header form{
+    display: inline-block;
+}
+.header img:nth-of-type(2){
+    position: relative;
+    left: 530px;
+}
+.header ul{
+    width: 85%;
+    height: 35px;
+    background-color: dimgrey;
+    list-style-type: none;
+    line-height: 35px;
+    margin: 0 auto;
+
+}
+.header ul li{
+    float: left;
+    margin-left: 45px;
+}
+.header ul li a:link{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.section{
+    width: 68%;
+    height: 600px;
+    margin: 0 auto;
+}
+.sLeft{
+    float: left;
+}
+.sLeft>h3:first-child{
+    color: white;
+    font-weight: bold;
+    width: 220px;
+    height: 30px;
+    background-color: darkgrey;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.sLeft ul{
+    list-style-type: none;
+    width: 216px;
+    height: 570px;
+    border: 2px solid gray;
+}
+.sLeft ul li h3{
+    margin-left: 10px;
+}
+.sLeft ul li table{
+    width: 180px;
+    height: 110px;
+    margin-left: 10px;
+}
+.sLeft ul li table td{
+    width: 90px;
+}
+#ads,#lt:link{
+    color: deeppink;
+}
+.sLeft ul li table a:link{
+    text-decoration: none;
+    color: black;
+    font-family: '宋体';
+}
+.sRight{
+    width: 800px;
+    height: 600px;
+    box-sizing: border-box;
+    margin-left:238px;
+    background: url(../images/ads/5.jpg) 0px 0px no-repeat;
+    position: relative;
+}
+#pixie{
+    position: absolute;
+    left: 565px;
+}
+.bgUl{
+    list-style-type: none;
+    position: absolute;
+    top: 280px;
+    left: 80px;
+}
+.bgUl li{
+   float: left;
+   margin-left: 5px;
+   background-color: gray;
+   opacity: 0.8;
+   color: white;
+}
+#firstUl{
+    width: 230px;
+    height: 140px;
+    list-style-type: none;
+    border: 1px solid rgb(112, 95, 95);
+    font-size: 14px;
+    position: absolute;
+    left: 565px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-left: 18px;
+}
+.sRight>h4{
+    display: inline;
+    position: absolute;
+    top: 340px;
+}
+#firstUl a:link{
+    text-decoration: none;
+    color: gray;
+    font-family: '宋体';  
+}
+#secondUl{
+    width: 220px;
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;
+    left: 540px;
+    top: 340px;
+    
+}
+#secondUl a:link{
+    text-decoration: none;
+    color: black;
+}
+#secondUl li{
+    float: left;
+    background-color: rgb(206, 200, 200);
+    margin-left: 10px;
+}
+#thirdUl{
+    list-style-type: none;
+    position: absolute;
+    top: 380px;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+#thirdUl span{
+    display: block;
+    width: 180px;
+    background-color: rgb(216, 214, 214);
+    text-align: center;
+    margin: 0 auto;
+}
+#thirdUl li{
+    float: left;
+    margin-left: 10px;
+}
+.footer{
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+   
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(153, 146, 146);
+}
+
